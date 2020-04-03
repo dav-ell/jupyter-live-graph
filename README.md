@@ -1,6 +1,6 @@
 # jupyter-live-graph
 
-Let's you do this:
+Let's you create a graph in a Jupyter cell, and update that graph live in other cells. Uses matplotlib`.draw()`.
 
 ![](jupyterdraw.gif)
 
