@@ -7,9 +7,11 @@ Let's you create a graph in a Jupyter cell, and update that graph live in other 
 As simple as:
 
 ```
+%matplotlib notebook
 from draw import Draw
 
 draw = Draw()
+# ---
 for i in range(1000):
   draw.graph([j for j in range(i)])
 ```
