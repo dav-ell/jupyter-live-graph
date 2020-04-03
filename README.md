@@ -4,11 +4,16 @@ Let's you create a graph in a Jupyter cell, and update that graph live in other 
 
 ![](jupyterdraw.gif)
 
-As simple as:
+To install:
 
+```bash
+pip install jupyter-live-graph
+```
+
+Then to use it it's as simple as:
 ```
 %matplotlib notebook
-from draw import Draw
+from livegraph import Draw
 
 draw = Draw()
 # ---
