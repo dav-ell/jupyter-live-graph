@@ -1,4 +1,4 @@
-# JupyterDraw
+# jupyter-live-graph
 
 Let's you do this:
 
